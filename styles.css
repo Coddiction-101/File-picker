@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(182, 179, 184);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.35);
+  height: 500px;
+  width: 40vh;
+  width: 500px;
+  padding: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first span {
+  font-size: 30px;
+}
+
+.first p {
+  text-align: center;
+  font-weight: 500;
+  color: grey;
+}
+
+.upload {
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.upload-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.first {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#first-icon {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.folder {
+  text-align: center;
+  background-color: rgb(231, 231, 231);
+  padding: 50px;
+  margin: 25px 50px 0 50px;
+  border-radius: 25px;
+  border: 5px dotted;
+}
+
+.folder span {
+  display: block;
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.folder p {
+  font-weight: 350;
+}
+
+#files {
+  font-weight: 300;
+  font-size: 25px;
+  color: #555;
+}
